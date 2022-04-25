@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-25T12:39:56 IST" name="Default suite" finished-at="2022-04-25T12:40:18 IST" duration-ms="21892">
+    <groups>
+    </groups>
+    <test started-at="2022-04-25T12:39:56 IST" name="Default test" finished-at="2022-04-25T12:40:18 IST" duration-ms="21892">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:tests.LoginTest@2cdd0d4b]" started-at="2022-04-25T12:39:56 IST" name="launchApp" finished-at="2022-04-25T12:40:06 IST" duration-ms="9481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="login_userName_password_blank_tc_01()[pri:1, instance:tests.LoginTest@2cdd0d4b]" started-at="2022-04-25T12:40:06 IST" name="login_userName_password_blank_tc_01" finished-at="2022-04-25T12:40:06 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_userName_password_blank_tc_01 -->
+        <test-method is-config="true" signature="delayAfterEachMethod()[pri:0, instance:tests.LoginTest@2cdd0d4b]" started-at="2022-04-25T12:40:06 IST" name="delayAfterEachMethod" finished-at="2022-04-25T12:40:08 IST" duration-ms="2014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delayAfterEachMethod -->
+        <test-method signature="login_userNameAdmin_password_blank_tc_02()[pri:2, instance:tests.LoginTest@2cdd0d4b]" started-at="2022-04-25T12:40:08 IST" name="login_userNameAdmin_password_blank_tc_02" finished-at="2022-04-25T12:40:08 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_userNameAdmin_password_blank_tc_02 -->
+        <test-method is-config="true" signature="delayAfterEachMethod()[pri:0, instance:tests.LoginTest@2cdd0d4b]" started-at="2022-04-25T12:40:08 IST" name="delayAfterEachMethod" finished-at="2022-04-25T12:40:10 IST" duration-ms="2002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delayAfterEachMethod -->
+        <test-method signature="login_userNameAdmin_password_Demo_tc_03()[pri:3, instance:tests.LoginTest@2cdd0d4b]" started-at="2022-04-25T12:40:10 IST" name="login_userNameAdmin_password_Demo_tc_03" finished-at="2022-04-25T12:40:12 IST" duration-ms="1630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_userNameAdmin_password_Demo_tc_03 -->
+        <test-method is-config="true" signature="delayAfterEachMethod()[pri:0, instance:tests.LoginTest@2cdd0d4b]" started-at="2022-04-25T12:40:12 IST" name="delayAfterEachMethod" finished-at="2022-04-25T12:40:14 IST" duration-ms="2005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delayAfterEachMethod -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:tests.LoginTest@2cdd0d4b]" started-at="2022-04-25T12:40:14 IST" name="closeApp" finished-at="2022-04-25T12:40:18 IST" duration-ms="4216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
