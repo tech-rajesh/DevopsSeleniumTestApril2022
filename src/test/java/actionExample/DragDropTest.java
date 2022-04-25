@@ -39,6 +39,7 @@ public class DragDropTest {
 	public void closeApp() throws Exception {
 		System.out.println("close browser");
 		Thread.sleep(4000);
+		Thread.sleep(4000);
 		driver.close();
 	}
 	
@@ -64,7 +65,7 @@ public class DragDropTest {
 		
 		Actions act = new Actions(driver);
 		act.dragAndDrop(img3, trash).perform();
-		act.dragAndDrop(img4, trash).perform();
+		//act.dragAndDrop(img4, trash).perform();
 		
 		//Thread.sleep(4000);
 		
